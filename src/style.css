@@ -1,0 +1,30 @@
+body {
+  padding: 15px;
+}
+
+.list-group-book.book {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+
+.book-name {
+  display: inline-block;
+  flex: 1;
+}
+
+.book-list {
+  text-align: center;
+}
+
+.form-row.add-book-form {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#newBookName {
+  flex: 1;
+}
